@@ -1,12 +1,18 @@
 package peaksoft;
 
+import peaksoft.models.Student;
 import peaksoft.models.User;
 
+
 import java.util.Scanner;
+
+
+import peaksoft.models.Group;
 
 public class Main {
     static Scanner scannerStr = new Scanner(System.in);
     static Scanner scannerInt = new Scanner(System.in);
+
 
     public static void main(String[] args) {
 
@@ -14,20 +20,35 @@ public class Main {
 //         -- TODO  create branch
 //          git branch fature/urmat
 
-//         --  TODO    git status
-//          bashka branchke otyy
+//      TODO  bashka branchke otyy
 //       git checkout fature/urmat
 //
-//         -- TODO Проверка статуса и истории:
-//       TOTO   git status
-//
+//         -- TODO Проверка статуса и истории and push
+//          git status
 //       TODO   git add .
 //         git status
 //         git commit -m "git method"
 //         git push -u origin fature/urmat
 
-
         User user = new User();
+        user.setId(1L);
+        user.setEmail("Aibek");
+        user.setFirstName("Aibek1");
+        user.setLastName("Aibek2");
+        Group group = new Group();
+        group.setId(1L);
+        group.setGroupName("Group 1");
+        group.setDescription("Group 2");
+
+        Student student = new Student();
+        student.setEmail("Aibek");
+        student.setFirstName("Aibek1");
+
+
+
+
+
+
 
 
         while (true) {
