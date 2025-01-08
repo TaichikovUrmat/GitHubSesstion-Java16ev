@@ -7,13 +7,19 @@ public class Main {
 
 
 //         -- TODO  create branch
-//         git branch fature/urmat
-//         --  TODO bashka branchke otyy
-//         git checkout fature/urmat
+//          git branch fature/urmat
+
+//         --  TODO    git status
+//          bashka branchke otyy
+//       git checkout fature/urmat
+//
 //         -- TODO Проверка статуса и истории:
+//       TOTO   git status
+//
+//       TODO   git add .
 //         git status
-//         git add .
-//         git
+//         git commit -m "git method"
+//         git push -u origin fature/urmat
 
 
         User user = new User();
