@@ -1,7 +1,7 @@
 package peaksoft;
 
 import peaksoft.models.User;
-
+import peaksoft.models.Group;
 public class Main {
     public static void main(String[] args) {
 
@@ -24,6 +24,18 @@ public class Main {
         user.setEmail("Aibek");
         user.setFirstName("Aibek1");
         user.setLastName("Aibek2");
+        Group group = new Group();
+        group.setId(1L);
+        group.setGroupName("Group 1");
+        group.setDescription("Group 2");
+
+
+
+
+
+
+
+
 
 
     }
