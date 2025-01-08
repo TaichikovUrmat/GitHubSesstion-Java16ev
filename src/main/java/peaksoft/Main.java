@@ -6,23 +6,37 @@ public class Main {
     public static void main(String[] args) {
 
 
+
 //         -- TODO  create branch
 //          git branch fature/urmat
 
-//         --  TODO    git status
-//          bashka branchke otyy
+//      TODO  bashka branchke otyy
 //       git checkout fature/urmat
 //
-//         -- TODO Проверка статуса и истории:
-//       TOTO   git status
-//
+//         -- TODO Проверка статуса и истории and push
+//          git status
 //       TODO   git add .
 //         git status
 //         git commit -m "git method"
 //         git push -u origin fature/urmat
 
-
         User user = new User();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     }
