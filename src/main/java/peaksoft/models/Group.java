@@ -5,6 +5,8 @@ public class Group {
     private String groupName;
     private String description;
 
+    public Group() {}
+
     public Group(Long id, String groupName, String description) {
         this.id = id;
         this.groupName = groupName;

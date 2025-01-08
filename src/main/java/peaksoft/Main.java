@@ -1,5 +1,6 @@
 package peaksoft;
 
+import peaksoft.models.Group;
 import peaksoft.models.User;
 
 public class Main {
@@ -22,18 +23,10 @@ public class Main {
 //         git push -u origin fature/urmat
 
         User user = new User();
-
-
-
-
-
-
-
-
-
-
-
-
+        Group group = new Group();
+        group.setId(1L);
+        group.setGroupName("Group 1");
+        group.setDescription("Group 2");
 
 
 
