@@ -1,5 +1,6 @@
 package peaksoft;
 
+import peaksoft.models.Student;
 import peaksoft.models.User;
 import peaksoft.models.Group;
 public class Main {
@@ -29,7 +30,9 @@ public class Main {
         group.setGroupName("Group 1");
         group.setDescription("Group 2");
 
-
+        Student student = new Student();
+        student.setEmail("Aibek");
+        student.setFirstName("Aibek1");
 
 
 
