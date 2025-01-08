@@ -1,12 +1,9 @@
 package peaksoft;
 
-import peaksoft.models.Group;
 import peaksoft.models.User;
-
+import peaksoft.models.Group;
 public class Main {
     public static void main(String[] args) {
-
-
 
 
 //         -- TODO  create branch
@@ -23,6 +20,10 @@ public class Main {
 //         git push -u origin fature/urmat
 
         User user = new User();
+        user.setId(1L);
+        user.setEmail("Aibek");
+        user.setFirstName("Aibek1");
+        user.setLastName("Aibek2");
         Group group = new Group();
         group.setId(1L);
         group.setGroupName("Group 1");
